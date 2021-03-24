@@ -5,7 +5,7 @@ const AWS = require('aws-sdk');
 // config object for AWS that dynamo DB will use to connect to local instance
 AWS.config.update({
     region: "us-east-2",
-    endpoint: "http://localhost:8000"
+    //endpoint: "http://localhost:8000"
 });
 
 // create the dynamo db service object
