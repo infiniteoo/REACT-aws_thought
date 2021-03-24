@@ -4,8 +4,8 @@ const AWS = require('aws-sdk');
 
 // configure service interface object 
 const awsConfig = {
-    region: 'us-east-2',
-    endpoint: 'http://localhost:8000'
+    region: 'us-east-2'
+    
 };
 
 AWS.config.update(awsConfig);
