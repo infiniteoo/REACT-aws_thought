@@ -7,7 +7,7 @@ import ThoughtList from "../components/ThoughtList";
 const AWS = require("aws-sdk");
 const awsConfig = {
   region: "us-east-2",
-  endpoint: "http://localhost:8000",
+  
 };
 
 AWS.config.update(awsConfig);
